@@ -19,6 +19,7 @@ def printtoHTML():
 </html>
     '''
     lcount.write(head)
+    lcount.close()
     return
 
 if __name__ == "__main__":
